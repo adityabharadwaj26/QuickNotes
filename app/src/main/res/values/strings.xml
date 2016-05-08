@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuickNotes</string>
+    <string name="Class9">Class 9</string>
+    <string name="Class10">Class 10</string>
+    <string name="Maths">Maths</string>
+    <string name="Science">Science</string>
+    <string name="title_activity_maths">MathsActivity</string>
+    <string name="title_activity_science">ScienceActivity</string>
+    <string name="Call_From_Class9">Called From Class 9</string>
+    <string name="Call_From_Class10">Called From Class 10</string>
+</resources>
