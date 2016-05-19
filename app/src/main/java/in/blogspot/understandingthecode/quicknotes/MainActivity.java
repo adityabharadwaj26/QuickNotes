@@ -12,6 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MyDatabaseHelper databaseHelper = new MyDatabaseHelper(this);
+        databaseHelper.addFriend("Abbas", 987);
+        databaseHelper.addFriend("John", 9877);
+        databaseHelper.addFriend("Michael", 8334);
+
         final Button Class9 = (Button) findViewById(R.id.Class9);
         assert Class9 != null;
         Class9.setOnClickListener(new View.OnClickListener() {

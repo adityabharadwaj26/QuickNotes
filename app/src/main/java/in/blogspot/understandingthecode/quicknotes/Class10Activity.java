@@ -12,6 +12,11 @@ public class Class10Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class10);
+        MyDatabaseHelper databaseHelper = new MyDatabaseHelper(this);
+        databaseHelper.addFriend("Aditya",1234);
+        databaseHelper.addFriend("Aashu",2345);
+        databaseHelper.addFriend("Hemu",3456);
+        databaseHelper.addFriend("Fuck",1111);
 
         final Button Maths = (Button) findViewById(R.id.Maths);
         assert Maths != null;
